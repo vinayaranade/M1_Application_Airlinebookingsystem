@@ -1,4 +1,4 @@
-# Requirements
+#### Requirements
 Airline booking system is based on the objective of providing the customers/users an easy way for making reservations, placing cancellation and checking their reservations. This airline booking system will help the customers to book their tickets in a hassle-free manner and make seats available as soon as there is a cancellation placed.
 # Research/State of Art 
 The present Airline booking system has counters at the airport where customers have to go to make reservations, cancel tickets and check reservations. There are travel agents who take advance bookings and provide tickets to customers at a higher cost than the actual cost also cancellation needs to be done at the counters and travel agents well in advance which is very lengthy and tedious process.
