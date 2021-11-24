@@ -52,14 +52,17 @@ pass from the existing system.
 | ------ | ------ |------|
 | HLR  1 |It should make a reservation and display seat number to the customer.  | Implemented|
 | HLR  2 | It should display all the reservation details of reserved seats . |Implemented |
-| HLR  3  | It should cancel a seat and make it available for reservation as soon as cancelled. | Implemented |
+| HLR  3 | It should cancel a seat and make it available for reservation as soon as cancelled. | Implemented |
+
 
 # Low level Requirements 
-| ID | Description  |
-| ------ | ------ |
-| LLR  1 |If the flight is rescheduled or delayed it will not display the changes to the customer.  |
-| LLR  2 |There will be no option to assign priorities to customers according to their need as it is not manual|
-| LLR  3  |In case of delay in reaching the airport counter customer will not be able to print boarding pass  |
+| ID | Description  | Status |
+| ------ | ------ | ------|
+| LLR  1 |It should take required details from the customer before making a reservation  | Implemented |
+| LLR  2 |It should check if the entered details are valid and send error in case of invalid | Implemented |
+| LLR  3 |It should generate a unique seat number for every reservation  | Implemented |
+| LLR 4 | It should take input seat details before cancellation | Implemented |
+| LLR 5 | Take input details of customer and display from existing records | Implemented |
 
   [dill]: <https://github.com/joemccann/dillinger>
    [git-repo-url]: <https://github.com/joemccann/dillinger.git>
