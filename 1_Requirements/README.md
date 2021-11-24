@@ -48,11 +48,11 @@ Airline Booking will ask for the passenger’s statistics which include name, pa
 pass from the existing system.
 
 # High level Requirements 
-| ID | Description  |
-| ------ | ------ |
-| HLR  1 |It should make a reservation and display seat number to the customer.  |
-| HLR  2 | It should display all the reservation details of reserved seats . |
-| HLR  3  | It should cancel a seat and make it available for reservation as soon as cancelled. |
+| ID | Description  |Status|
+| ------ | ------ |------|
+| HLR  1 |It should make a reservation and display seat number to the customer.  | Implemented|
+| HLR  2 | It should display all the reservation details of reserved seats . |Implemented |
+| HLR  3  | It should cancel a seat and make it available for reservation as soon as cancelled. | Implemented |
 
 # Low level Requirements 
 | ID | Description  |
