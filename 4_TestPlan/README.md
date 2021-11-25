@@ -1,15 +1,19 @@
-# Expected Output 
+# Testplan 
 
-The output window is a first display window of the system that displays all the options i.e Reservation,cancel,display.
+### High level test plan
+|Test Id | Description | Expected Output | Actual Output | Type of test |
+|-------|-------|-------|------|-----|
+|H_01|Make a reservation with passport no 45521| Successful and seat number| Successful with seat number A_1| Requirment based|
+|h_02|Make a reservation with already entered passport number | Seat number A_2| Sat number A-2| Scenario based|
+|H-03|Enter a 9 digit passport number| Successful |Successful |Requirement based |
+|H_04|Delete reservation after entering passport number |Booking Deleted |Booking Deleted |Requirment based |
+|H_05|Select Delete and Enter 0 as passport number | Passport Number is wrong |Passport Number is wrong |Scenario based |
+|H_06|Select Display record enter A_1 |Successfully print all details of A_1 |Successfully print all details of A_1| Requirment based |
 
-![window1](https://user-images.githubusercontent.com/94466750/142777692-ff74d61d-3bf2-4e78-8777-055a313b1e25.PNG)
- 
- 
-# Test case Output
-### Reservation confirmation window 
-
-![reservation](https://user-images.githubusercontent.com/94466750/142777752-1105f2be-00c4-4b13-bdcc-8f86c7574443.PNG)
-
-### Display Record window
-
-![displayrecord](https://user-images.githubusercontent.com/94466750/142777781-f94c7617-171b-4fb2-8b6d-dc340ea20a98.PNG)
+### Low level test plan 
+|Test Id | Description | Expected Output | Actual Output | Type of test |
+|-------|-------|-------|------|-----|
+|L_01|Select Reservation and enter details simultaneously | Successful and seat number|  Successful and seat number| Scenario based |
+|L_02|Select delete and enter invalid passport number | Passport number is wrong  |Passport number is wrong  |Scenario  based |
+|L_03|Select display without any reservations |Back to option select window |Back to option select window |Scenario based |
+|L_04|Enter invalid choice from select menu | Sorry Invalid choice | Sorry Invalid choice | Scenario based |
